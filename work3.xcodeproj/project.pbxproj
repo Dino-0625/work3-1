@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		55AA18B4254C4EC300AF3BC7 /* work3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18B3254C4EC300AF3BC7 /* work3App.swift */; };
-		55AA18B6254C4EC300AF3BC7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18B5254C4EC300AF3BC7 /* ContentView.swift */; };
 		55AA18B8254C4EC500AF3BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18B7254C4EC500AF3BC7 /* Assets.xcassets */; };
 		55AA18BB254C4EC500AF3BC7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18BA254C4EC500AF3BC7 /* Preview Assets.xcassets */; };
 		55AA18C6254C4EC500AF3BC7 /* work3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18C5254C4EC500AF3BC7 /* work3Tests.swift */; };
 		55AA18D1254C4EC500AF3BC7 /* work3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18D0254C4EC500AF3BC7 /* work3UITests.swift */; };
+		55AA18E2254C4EEA00AF3BC7 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18E1254C4EEA00AF3BC7 /* Team.swift */; };
+		55AA18E7254C4EF100AF3BC7 /* Music_player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18E6254C4EF100AF3BC7 /* Music_player.swift */; };
+		55AA18F1254C4F0800AF3BC7 /* One_day.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18EB254C4F0700AF3BC7 /* One_day.mp3 */; };
+		55AA18F2254C4F0800AF3BC7 /* 怎樣.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18EC254C4F0700AF3BC7 /* 怎樣.mp3 */; };
+		55AA18F3254C4F0800AF3BC7 /* 無名之輩.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18ED254C4F0700AF3BC7 /* 無名之輩.mp3 */; };
+		55AA18F4254C4F0800AF3BC7 /* 與我無關.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18EE254C4F0800AF3BC7 /* 與我無關.mp3 */; };
+		55AA18F5254C4F0800AF3BC7 /* 稻香.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18EF254C4F0800AF3BC7 /* 稻香.mp3 */; };
+		55AA18F6254C4F0800AF3BC7 /* 街角的祝福.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55AA18F0254C4F0800AF3BC7 /* 街角的祝福.mp3 */; };
+		55AA18FB254C4F1900AF3BC7 /* Editphoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18FA254C4F1900AF3BC7 /* Editphoto.swift */; };
+		55AA1900254C4F2300AF3BC7 /* Intro_player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AA18FF254C4F2300AF3BC7 /* Intro_player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +44,6 @@
 /* Begin PBXFileReference section */
 		55AA18B0254C4EC300AF3BC7 /* work3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = work3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AA18B3254C4EC300AF3BC7 /* work3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work3App.swift; sourceTree = "<group>"; };
-		55AA18B5254C4EC300AF3BC7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55AA18B7254C4EC500AF3BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55AA18BA254C4EC500AF3BC7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55AA18BC254C4EC500AF3BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +53,16 @@
 		55AA18CC254C4EC500AF3BC7 /* work3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = work3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55AA18D0254C4EC500AF3BC7 /* work3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = work3UITests.swift; sourceTree = "<group>"; };
 		55AA18D2254C4EC500AF3BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55AA18E1254C4EEA00AF3BC7 /* Team.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		55AA18E6254C4EF100AF3BC7 /* Music_player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music_player.swift; sourceTree = "<group>"; };
+		55AA18EB254C4F0700AF3BC7 /* One_day.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = One_day.mp3; sourceTree = "<group>"; };
+		55AA18EC254C4F0700AF3BC7 /* 怎樣.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "怎樣.mp3"; sourceTree = "<group>"; };
+		55AA18ED254C4F0700AF3BC7 /* 無名之輩.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "無名之輩.mp3"; sourceTree = "<group>"; };
+		55AA18EE254C4F0800AF3BC7 /* 與我無關.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "與我無關.mp3"; sourceTree = "<group>"; };
+		55AA18EF254C4F0800AF3BC7 /* 稻香.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "稻香.mp3"; sourceTree = "<group>"; };
+		55AA18F0254C4F0800AF3BC7 /* 街角的祝福.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "街角的祝福.mp3"; sourceTree = "<group>"; };
+		55AA18FA254C4F1900AF3BC7 /* Editphoto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Editphoto.swift; sourceTree = "<group>"; };
+		55AA18FF254C4F2300AF3BC7 /* Intro_player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Intro_player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +113,18 @@
 		55AA18B2254C4EC300AF3BC7 /* work3 */ = {
 			isa = PBXGroup;
 			children = (
+				55AA18E6254C4EF100AF3BC7 /* Music_player.swift */,
 				55AA18B3254C4EC300AF3BC7 /* work3App.swift */,
-				55AA18B5254C4EC300AF3BC7 /* ContentView.swift */,
+				55AA18E1254C4EEA00AF3BC7 /* Team.swift */,
+				55AA18FF254C4F2300AF3BC7 /* Intro_player.swift */,
+				55AA18FA254C4F1900AF3BC7 /* Editphoto.swift */,
 				55AA18B7254C4EC500AF3BC7 /* Assets.xcassets */,
+				55AA18EC254C4F0700AF3BC7 /* 怎樣.mp3 */,
+				55AA18ED254C4F0700AF3BC7 /* 無名之輩.mp3 */,
+				55AA18F0254C4F0800AF3BC7 /* 街角的祝福.mp3 */,
+				55AA18EE254C4F0800AF3BC7 /* 與我無關.mp3 */,
+				55AA18EF254C4F0800AF3BC7 /* 稻香.mp3 */,
+				55AA18EB254C4F0700AF3BC7 /* One_day.mp3 */,
 				55AA18BC254C4EC500AF3BC7 /* Info.plist */,
 				55AA18B9254C4EC500AF3BC7 /* Preview Content */,
 			);
@@ -233,6 +260,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55AA18F6254C4F0800AF3BC7 /* 街角的祝福.mp3 in Resources */,
+				55AA18F3254C4F0800AF3BC7 /* 無名之輩.mp3 in Resources */,
+				55AA18F1254C4F0800AF3BC7 /* One_day.mp3 in Resources */,
+				55AA18F2254C4F0800AF3BC7 /* 怎樣.mp3 in Resources */,
+				55AA18F5254C4F0800AF3BC7 /* 稻香.mp3 in Resources */,
+				55AA18F4254C4F0800AF3BC7 /* 與我無關.mp3 in Resources */,
 				55AA18BB254C4EC500AF3BC7 /* Preview Assets.xcassets in Resources */,
 				55AA18B8254C4EC500AF3BC7 /* Assets.xcassets in Resources */,
 			);
@@ -259,7 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55AA18B6254C4EC300AF3BC7 /* ContentView.swift in Sources */,
+				55AA18E2254C4EEA00AF3BC7 /* Team.swift in Sources */,
+				55AA18FB254C4F1900AF3BC7 /* Editphoto.swift in Sources */,
+				55AA1900254C4F2300AF3BC7 /* Intro_player.swift in Sources */,
+				55AA18E7254C4EF100AF3BC7 /* Music_player.swift in Sources */,
 				55AA18B4254C4EC300AF3BC7 /* work3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
